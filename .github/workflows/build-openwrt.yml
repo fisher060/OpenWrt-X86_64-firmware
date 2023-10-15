@@ -62,7 +62,7 @@ jobs:
       working-directory: ./openwrt
       run: |
         ./scripts/feeds update -a
-        cd openwrt/feeds/luci/themes/
+        cd ./feeds/luci/themes/
         rm -rf luci-theme-argon
         git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
         cd
