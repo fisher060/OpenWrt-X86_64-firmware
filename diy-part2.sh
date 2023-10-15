@@ -12,3 +12,4 @@
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 rm openwrt/feeds/luci/theme/luci-theme-argon -rf
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git openwrt/feeds/luci/theme/
